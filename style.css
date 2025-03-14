@@ -1,0 +1,116 @@
+/* Global Styles */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #1e1e1e;
+    color: #d4d4d4;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #569cd6;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5em;
+    border-bottom: 2px solid #569cd6;
+    padding-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav li {
+    list-style: none;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #9cdcfe;
+    font-size: 1.2em;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ce9178;
+}
+
+/* Sections */
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #252526;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+li a {
+    color: #dcdcaa;
+    text-decoration: none;
+    font-size: 1.1em;
+    transition: color 0.3s;
+}
+
+li a:hover {
+    color: #ce9178;
+}
+
+DD {
+    font-style: italic;
+    color: #9cdcfe;
+    padding-left: 20px;
+}
+
+/* Final Project Buttons */
+button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 1.2em;
+    color: #ffffff;
+    background: #007acc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #005f99;
+}
+
+
+#final-project img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+#final-project {
+    text-align: center;
+    padding: 20px;
+   
+    border-radius: 8px;
+    
+    margin: 20px auto;
+}
